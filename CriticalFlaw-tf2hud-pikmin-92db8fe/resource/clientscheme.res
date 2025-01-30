@@ -58,6 +58,8 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
+		"pikmin_color"       "210 230 240 240"
+		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
@@ -2933,6 +2935,105 @@ Scheme
 				"antialias" "1"
 				"additive"	"0"
 			}
+		}
+		Pikminneue_font12
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font16
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font24
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"24"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font32
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"32"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font36
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"36"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font42
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"42"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font46
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"46"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font52
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"52"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
+		}
+		Pikminneue_font56
+		{
+			"1"
+			{
+				"name"		"Pikmin Neue"
+				"tall"		"56"
+				"antialias" "1"
+				"additive"	"0"
+			}
+			
 		}
 		pikmin_font12
 		{
@@ -5909,6 +6010,11 @@ Scheme
 		"name" "pikmin"
 		}
 		"8"
+		{
+		"font" "resource/font/pikminneue.otf"
+		"name" "Pikmin Neue"
+		}
+		"9"
 		{
 			"font"	"resource/ocra.ttf"
 			"name" "ocra"

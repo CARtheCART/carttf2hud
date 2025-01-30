@@ -19,14 +19,27 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r373"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r170"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"250"
+		"xpos"	"c70"	[$WIN32]
+		"ypos"	"c45"	[$WIN32]
+		"xpos"	"c-185"	[$X360]
+		"ypos"	"c45"	[$X360]
+		"wide"	"128"
 		"tall"	"120"
+	}
+	"AmmoBG"
+	{
+	   "ControlName"    "ImagePanel"
+	   "fieldName"      "AmmoBG"
+	   "xpos"           "497"
+	   "ypos"           "329"
+	   "zpos"           "-1"
+	   "wide"           "100"
+	   "tall"           "31"
+	   "pinCorner"      "0"
+	   "visible"        "1"
+	   "enabled"        "1"
+	   "fillcolor"      "0 15 0 125"
+	
 	}
 	
 	HudObjectiveStatus
@@ -62,13 +75,13 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
+		"xpos"			"r122"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"wide"			"100000"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -79,14 +92,14 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r461"	[$WIN32]
+		"xpos"			"C-426"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
 		"ypos"			"r210"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"wide"			"2000"
+		"tall"			"1000"
 	}
 	
 	HudDemomanCharge
@@ -1026,14 +1039,14 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"r627"	[$WIN32]
+		"xpos_minmode"	"r0"	[$WIN32]
+		"ypos"			"r400"	[$WIN32]
 		"ypos_minmode"	"r32"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"1000"
+		"tall"			"500"
 	}
 
 	HudTeamGoal
