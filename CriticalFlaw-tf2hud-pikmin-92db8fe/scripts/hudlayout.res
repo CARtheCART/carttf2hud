@@ -1039,14 +1039,14 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r627"	[$WIN32]
+		"xpos"			"f0"	[$WIN32]
 		"xpos_minmode"	"r0"	[$WIN32]
 		"ypos"			"r400"	[$WIN32]
 		"ypos_minmode"	"r32"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"1000"
-		"tall"			"500"
+		"wide"			"f0"
+		"tall"			"1000"
 	}
 
 	HudTeamGoal

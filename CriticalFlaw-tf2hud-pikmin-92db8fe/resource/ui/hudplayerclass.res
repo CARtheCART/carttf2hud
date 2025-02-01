@@ -23,9 +23,9 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"725"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"rs1.2"	[$WIN32]
+		"ypos"			"rs1"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
@@ -43,9 +43,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
+		"xpos"			"820"		[$WIN32]
 		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"rs1.27" [$WIN32]
+		"ypos"			"rs1" [$WIN32]
 		"ypos_minmode"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
@@ -65,23 +65,63 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
+		"xpos"			"-71444"		[$WIN32]
 		"xpos_minmode"	"-10"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"r526"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+	}
+	"classmodelpanelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos"			"9999"
+	}
+
+	"classmodelpanel"
+	{
+		"ControlName"		"CTFPlayerModelPanel"
+		"fieldName"			"classmodelpanel"
+		"xpos"				"700"
+		"ypos"				"r250"
+		"zpos"				"2"
+		"wide"				"150"
+		"tall"				"250"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fov"				"23"
+		"allow_rot"			"1"
+		"render_texture"	"0"
+
+		"model"
+		{
+			"force_pos"			"1"
+			"angles_x" 			"0"
+			"angles_y" 			"165"
+			"angles_z" 			"0"
+			"origin_x" 			"200"
+			"origin_y" 			"0"
+			"origin_z" 			"-80"
+			"frame_origin_x"	"110"
+			"frame_origin_y"	"110"
+			"frame_origin_z"	"110"
+			"spotlight" 		"1"
+			"modelname"			""
+		}
 	}
 
 	"CarryingWeapon"

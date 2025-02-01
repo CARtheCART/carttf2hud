@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
+		"xpos"			"r310"	[$WIN32]
+		"ypos"			"r130"	[$WIN32]
 		"xpos_minmode"	"r130"	[$WIN32]
 		"ypos_minmode"	"r70"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -16,12 +16,27 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+	"ItemEffectMeterBG2"
+	{
+	   "ControlName"    "ImagePanel"
+	   "fieldName"      "ItemEffectMeterBG2"
+	   "xpos"           "22"
+	   "ypos"           "10"
+	   "zpos"           "-1"
+	   "wide"           "46"
+	   "tall"           "31"
+	   "pinCorner"      "0"
+	   "visible"        "1"
+	   "enabled"        "1"
+	   "fillcolor"      "0 15 0 125"
+	
+	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"121"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"76"
@@ -30,7 +45,7 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
@@ -41,11 +56,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"20"
 		"ypos"					"25"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"50"
+		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -55,7 +70,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Pikmin_font12"
 	}
 
 	"ItemEffectMeter"
@@ -97,6 +112,40 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Pikminneue_font24"
+	}
+	"StreakIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIcon"
+		"xpos"					"2522"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"15"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"pikmin_font12"
+		"fgcolor_override"		"TanLight"
+	}
+
+	"StreakIconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIconShadow"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"1"
+		"wide"					"15"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"SmallIcons"
+		"fgcolor_override"		"Black"
+		"pin_to_sibling"		"StreakIcon"
 	}
 }

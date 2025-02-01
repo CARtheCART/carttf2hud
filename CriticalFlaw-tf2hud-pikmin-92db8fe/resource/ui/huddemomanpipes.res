@@ -25,8 +25,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"9999"
-		"ypos"					"-2"
+		"xpos"					"228"
+		"ypos"					"240"
 		"xpos_minmode"			"400"
 		"ypos_minmode"			"7"
 		"zpos"					"2"
@@ -45,7 +45,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"pikmin_font12"
-		"fgcolor_ovrride"       "Black"
+		"fgcolor_override" 		"pikmin_color"
 	}
 
 	"ChargeMeter"
@@ -53,14 +53,14 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"171"
-		"ypos"					"210"
+		"xpos"					"379"
+		"ypos"					"255"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"60"
+		"wide"					"100"
 		"wide_minmode"			"30"
-		"tall"					"7"				
+		"tall"					"12"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -69,14 +69,29 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		
-	}				
+	}			
+	"demBG"
+	{
+	   "ControlName"    "ImagePanel"
+	   "fieldName"      "demBG"
+       "xpos"					"377"
+	   "ypos"					"244"
+	   "zpos"           "-1"
+	   "wide"           "104"
+	   "tall"           "25"
+	   "pinCorner"      "0"
+	   "visible"        "1"
+	   "enabled"        "1"
+	   "fillcolor"      "0 15 0 125"
+	
+	}	
 		
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"180"
-		"ypos"			"160"
+		"xpos"			"373"
+		"ypos"			"247"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"

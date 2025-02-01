@@ -58,7 +58,7 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
-		"pikmin_color"       "210 230 240 240"
+		"pikmin_color"       "210 240 214 240"
 		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
