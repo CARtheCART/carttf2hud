@@ -1,2 +1,2 @@
 # carstf2pikminhud
-tf2 pikmin hud for tf2
+tf2 hud
